@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // tittre du son
-const songs = ['Post Malone - Rockstar ft. 21 Savage', 'Play Hard','Post Malone - Sunflower','nothin new','Koffee - W (feat. Gunna)','Fred again & Jozzy - ten', 'Don Toliver - TORE UP'];
+const songs = ['Post Malone - Rockstar ft. 21 Savage','Play Hard','Post Malone - Sunflower','nothin new','Koffee - W (feat. Gunna)','Fred again & Jozzy - ten', 'Don Toliver - TORE UP'];
 
 // Garder la trace de la chanson
 let songIndex = 2;
@@ -22,10 +22,10 @@ loadSong(songs[songIndex]);
 
 // Gardez la trace de la chanson
 function loadSong(song) {
-  title.innerText = song;
-  audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
-}
+	title.innerText = song;
+	audio.src = `./assets/music/${song}.mp3`;
+	cover.src = `./assets/images/${song}.jpg`;
+  }  
 
 // Jouer la chanson
 function playSong() {

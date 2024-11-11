@@ -30,3 +30,4 @@ Ce projet a été réalisé pour approfondir mes compétences en JavaScript, not
 
    ```bash
    git clone https://github.com/Elie-Mos/music-player.git
+
